@@ -2,12 +2,10 @@
 #name : prop
 #key : prop
 # --
-private ${1:String} ${2:name};$0
-
+private ${1:String} _${2:name};$0
 public $1 get${2:$(upcase-initials text)}() {
-    return $2;
+    return _$2;
 }
-
 public void set${2:$(upcase-initials text)}($1 $2) {
-    this.$2 = $2;
+    this._$2 = $2;
 }
