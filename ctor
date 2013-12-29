@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name : constructor
+# key : ctor
+# --
+public ${1:`(or (and (re-search-backward "[ \t]*class[ \t]+\\([A-Z][A-Za-z0-9_]+\\)" nil t)
+                     (match-string-no-properties 1))
+                (file-name-sans-extension (buffer-name)))`}($2) {
+    $0
+}

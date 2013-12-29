@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : public interface method
+#key : ipum
+# --
+public ${1:void} ${2:method}($3)$4;$5

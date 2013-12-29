@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : throw new exception
+#key : tn
+# --
+throw new $0

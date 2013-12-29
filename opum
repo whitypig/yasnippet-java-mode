@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : override public method
+#key : opum
+# --
+@Override
+public ${1:void} $2($3) {
+    $0
+}

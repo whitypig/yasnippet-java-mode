@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : asserThat
+#key : at
+# --
+assertThat($1, $2, $3);$0

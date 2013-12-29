@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : import static
+#key : is
+# --
+import static $0
