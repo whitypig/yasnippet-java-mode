@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : System.err.println
+#key : pel
+# --
+System.err.println($1);$0
